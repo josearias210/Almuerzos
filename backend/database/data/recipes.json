@@ -1,0 +1,38 @@
+{
+    "ensalada": {
+        "tomato": 3,
+        "onion": 2,
+        "lettuce": 1,
+        "lemon": 1
+    },
+    "arroz con pollo": {
+        "chicken": 1,
+        "rice": 1,
+        "onion": 2
+    },
+    "carne guisada": {
+        "meat": 1,
+        "onion": 1,
+        "potato": 2,
+        "ketchup": 1
+    },
+    "pure de papa": {
+        "potato": 1,
+        "onion": 1,
+        "tomato": 1,
+        "cheese": 2
+    },
+    "pollo en salsa": {
+        "ketchup": 1,
+        "onion": 2,
+        "tomato": 2,
+        "chicken": 1
+    },
+    "parrilla": {
+        "meat": 1,
+        "onion": 2,
+        "tomato": 2,
+        "ketchup": 1,
+        "potato": 2
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "tomate",
+        "code": "tomato"
+    },
+    {
+        "name": "limon",
+        "code": "lemon"
+    },
+    {
+        "name": "papa",
+        "code": "potato"
+    },
+    {
+        "name": "arroz",
+        "code": "rice"
+    },
+    {
+        "name": "salsa de tomate",
+        "code": "ketchup"
+    },
+    {
+        "name": "lechuga",
+        "code": "lettuce"
+    },
+    {
+        "name": "cebolla",
+        "code": "onion"
+    },
+    {
+        "name": "queso",
+        "code": "cheese"
+    },
+    {
+        "name": "carne",
+        "code": "meat"
+    },
+    {
+        "name": "pollo",
+        "code": "chicken"
+    }
+]

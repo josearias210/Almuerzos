@@ -1,0 +1,25 @@
+[{
+		"name": "ensalada",
+		"description": "Plato que se prepara mezclando distintos alimentos, crudos o cocidos"
+	},
+	{
+		"name": "arroz con pollo",
+		"description": "Consiste en arroz cocinado con pollo, en presas o desmechado"
+	},
+	{
+		"name": "carne guisada",
+		"description": "Carne asada con varios condimentos"
+	},
+	{
+		"name": "pure de papa",
+		"description": "Patatas cocidas y molidas, asi como otros ingredientes"
+	},
+	{
+		"name": "pollo en salsa",
+		"description": "Pollo  en salsa roja"
+	},
+	{
+		"name": "parrilla",
+		"description": "carne elaborada barbacoa"
+	}
+]

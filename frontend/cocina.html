@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alegra</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/alegra.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/table.js"></script>
+        <script src="js/recipe.js"></script>
+        <script src="js/kitchen.js"></script>
+        <script>
+
+            loadOrders('kitchen');
+
+        </script>
+
+    </head>
+
+    <body>
+        <div class="charge">
+            <div class="point a"></div>
+            <div class="point b"></div>
+            <div class="point c"></div>
+        </div>
+        <header id="header-container">
+            <nav class="navbar navbar-expand-md ">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">Jornada de Almuerzo!</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" style=" outline: none;">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="index.html"><i class="fa fa-th-list "></i> Ordenes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="cocina.html"> <i class="fas fa-utensils"></i> Cocina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="bodega.html"><i class="fas fa-box-open"></i>Bodega</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="compras.html"><i class="fas fa-shopping-cart"></i>Compras</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="inventario.html"><i class="fas fa-boxes"></i> Inventario</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <br />
+            <h2>Listado de Pedidos Cocina</h2>
+            <br />
+            <div class="row">
+                <div id="jsGrid"></div>
+            </div>
+        </div>
+
+        <div class="modal" id="recipe-detail" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Receta</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 id="title-food">Ingredientes</h3>
+                        <ul id="list-ingredients" class="list-unstyled">
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn " data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
